@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paytm</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <header id="nav">
+    <!-- navbar starting -->
+    <div class="logo">
+      <div id="menu"><i class="fa-solid fa-bars"></i></div>
+      <img src="./img/paytm_logo.png" href="index.html" alt="paytm_logo" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">paytm for consumer </a>
+        <ul class="drop-menu">
+          <li><a href="#">payments</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Bil Payment & Recharges </a></li>
+              <li><a href="#">Send Money to Anyone </a></li>
+              <li><a href="#">Online Payments</a></li>
+              <li><a href="#">In Store payments</a></li>
+
+            </ul>
+          </li>
+
+          <li><a href="#">ticket booking</a>
+
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Movie Tickets </a></li>
+              <li><a href="#">Flight Tickets </a></li>
+              <li><a href="#">Train Tickets</a></li>
+              <li><a href="#">Bus Tickets</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#">financial searvices</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Banking</a></li>
+              <li><a href="#">Paytm Money </a></li>
+              <li><a href="#">Insurance</a></li>
+              <li><a href="#">Loans & Credit cards</a></li>
+
+            </ul>
+
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">paytm for business</a>
+        <ul class="drop-menu">
+          <li><a href="#">consumer payments</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Online Payments</a></li>
+              <li><a href="#">Ofline Payments </a></li>
+
+            </ul>
+
+          </li>
+          <li><a href="#">business payments</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Payouts</a></li>
+              <li><a href="#">Nodal accounts </a></li>
+            </ul>
+
+          </li>
+          <li><a href="#">business service</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Pos Billing Software</a></li>
+              <li><a href="#">Paytm for Business app </a></li>
+              <li><a href="#">advertising on paytm</a></li>
+              <li><a href="#">business khata</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#">financial service</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Banking</a></li>
+              <li><a href="#">wealth </a></li>
+              <li><a href="#">loans</a></li>
+              <li><a href="#">business loans</a></li>
+              <li><a href="#">insurance</a></li>
+            </ul>
+          </li>
+          <li><a href="#">devloper</a>
+            <!-- 3rd dropdown menu  -->
+            <ul>
+              <li><a href="#">Payments API</a></li>
+              <li><a href="#">PAI</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="#">investor relations </a></li>
+      <li><a href="#">company</a>
+        <ul class="drop-menu">
+          <li><a href="#">about</a></li>
+          <li><a href="#">CSR</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">terms & conditions</a></li>
+          <li><a href="#">sustainbility</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">carrer</a></li>
+
+    </ul>
+    <div class="btn">
+      <button onclick="signUp()">Sign in<i class="fa-regular fa-user"></i></button>
+    </div>
+  </header>
+
+  <!-- navbar ending -->
+  <!-- home page starting -->
+  <section>
+    <div class="para">
+      <p>No Wallet KYC Required <span>😊 </span> to pay using UPI on Paytm. <a href="3">learn more</a></p>
+    </div>
+    <!-- SIGN UP PAGE START -->
+    <div id="signup-page">
+      <div class="s-page1  s-bg1">
+        <div>
+          <h3>To Login into your Paytm Web account</h3>
+          <p>1.Open Paytm App</p>
+          <p>2.
+            Tap Scan <i class="fa-solid fa-qrcode"></i> option available at the bottom</p>
+          <p>3.
+            Point Paytm Scan at QR Code to login</p>
+          <a href="#"><i class="fa-solid fa-circle-play"></i> Watch Video </a>
+
+        </div>
+
+        <div>
+          <p>To create an account download Paytm App</p>
+          <button class="s-btn">Google Play <i class="fa-brands fa-google-play"></i></button>
+          <button class="s-btn">App Store <i class="fa-brands fa-apple"></i></button>
+
+        </div>
+
+      </div>
+
+      <div class="s-page1">
+        <i class="fa-solid fa-circle-xmark" onclick="Xmark()"></i>
+        <img src="./img2/QRcodE.png" alt="">
+        <p>Scan QR code with Paytm App to login</p>
+      </div>
+
+    </div>
+
+    <!-- SIGNUP PAGE END -->
+    <div class="home">
+      <div>
+        <img src="./img/paytmBox.png" alt="">
+        <h1>India's Most-loved Payments App</h1>
+        <p>Recharge & pay bills, book flights & movie tickets, <br> open a savings account, invest in stocks & mutual
+          funds, and do a lot more.</p>
+        <button class="btn2">Download Paytm App <a target="_blank"
+            href="https://apps.apple.com/in/app/mobile-recharge-bill-payments/id473941634"><i
+              class="fa-brands fa-apple"></i></a>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=net.one97.paytm"><i
+              class="fa-brands fa-google-play"></i></a> </button>
+      </div>
+      <div>
+        <img src="./img/paytm phone.webp" alt="">
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- 2nd page -->
+  <div id="recharge">
+    <div class="box1">
+      <h1>Recharge & Pay Bills on Paytm.</h1>
+      <div class="row1">
+        <div class="items">
+          <img src="./short_img/reacharge.png" alt="Recharge">
+          <h3>Recharge</h3>
+          <h3>Prepaid</h3>
+          <h3>mobile <i class="fa-solid fa-angle-right"></i> </h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/electricity.png" alt="electricity">
+          <h3>pay</h3>
+          <h3>Prepaid</h3>
+          <h3>bill <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/dth.png" alt="dth">
+          <h3>Recharge</h3>
+          <h3>DTH</h3>
+          <h3>connections <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/gas.png" alt="gas">
+          <h3>book</h3>
+          <h3>gas</h3>
+          <h3>cylinder <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/wifi.png" alt="wifi">
+          <h3>pay</h3>
+          <h3>broadband &</h3>
+          <h3>bill <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/EDUCATION.png" alt="EDUCATION">
+          <h3>pay</h3>
+          <h3>Education</h3>
+          <h3>fee <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/SERVICES.png" alt="SERVICES">
+          <h3>all</h3>
+          <h3>payments</h3>
+          <h3>services <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 2nd box start -->
+
+    <div class="box2">
+      <h1>Book & Buy on Paytm.</h1>
+      <div class="row1">
+        <div class="items">
+          <img src="./short_img/MOVIE.png" alt="movie">
+          <h3>Movie</h3>
+          <h3>tickets <i class="fa-solid fa-angle-right"></i> </h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/FLITE.png" alt="electricity">
+          <h3>flight</h3>
+          <h3>tickets <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/BUS.png" alt="dth">
+          <h3>bus</h3>
+          <h3>tickets <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/TRAIN.png" alt="gas">
+          <h3>train</h3>
+          <h3> tickets <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/UMBRELLA.png" alt="wifi">
+          <h3>buy</h3>
+          <h3>insurance <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/INT_FLIGHTS.png" alt="EDUCATION">
+          <h3>international</h3>
+          <h3>flights <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+        <div class="items">
+          <img src="./short_img/STOCK.webp" alt="SERVICES">
+
+          <h3>invest</h3>
+          <h3>in stocks <i class="fa-solid fa-angle-right"></i></h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <section id="pay-page">
+    <h1>Paytm Payment Instruments</h1>
+    <div class="wallet">
+
+      <div class="child-box">
+        <div class="wallet-img">
+          <img src="./img/paytm wallet.png" alt="" id="hii">
+          <h3>Paytm Wallet</h3>
+        </div>
+        <h1>The Fastest Way to Pay In-store & Online.</h1>
+        <p>Load up your Paytm Wallet for free and make payments in a jiffy at over 21 million stores, websites and apps.
+          Download the App
+        </p>
+        <button class="btn2">Download Paytm App <a target="_blank"
+            href="https://apps.apple.com/in/app/mobile-recharge-bill-payments/id473941634"><i
+              class="fa-brands fa-apple"></i></a>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=net.one97.paytm"><i
+              class="fa-brands fa-google-play"></i></a> </button>
+
+      </div>
+
+      <div class="child-box">
+        <img src="./img/phone wallet.webp" alt="">
+      </div>
+
+    </div>
+
+
+    <!-- hii UPI Money Transfer-->
+
+
+    <div class="wallet">
+
+      <div class="child-box">
+        <div class="wallet-img">
+          <img src="./img/upi.png" alt="">
+          <h3>UPI Money Transfer</h3>
+        </div>
+        <h1>Pay anyone directly from your bank account.</h1>
+        <p>Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm Wallet or Directly
+          from your Bank Account. Plus, send & receive money from anyone.</p>
+        <button class="btn2">Download This App <a target="_blank"
+            href="https://apps.apple.com/in/app/mobile-recharge-bill-payments/id473941634"><i
+              class="fa-brands fa-apple"></i></a>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=net.one97.paytm"><i
+              class="fa-brands fa-google-play"></i></a> </button>
+
+      </div>
+
+      <div class="child-box">
+        <img src="./img/paid money.webp" alt="">
+      </div>
+
+    </div>
+    <!-- dfsk -->
+
+    <div class="wallet">
+
+      <div class="child-box">
+        <div class="wallet-img">
+          <img src="./img/paytm postpaid.webp" alt="" id="post-paid">
+
+        </div>
+
+        <h1>Want it? <br> No more waiting for it.</h1>
+        <p>With Paytm Postpaid, your wishlist doesn't have to be on the waitlist. Shop for the things you want today and
+          pay for them next month.</p>
+        <button class="btn3">Learn More &nbsp <i class="fa-solid fa-minus"></i><i class="fa-solid fa-angle-right"></i>
+        </button>
+
+      </div>
+
+      <div class="child-box">
+        <img src="./img/shoping bag paytm.webp" alt="">
+      </div>
+
+    </div>
+
+    <!-- end -->
+    <!-- 4rd section start -->
+
+    <div id="bank">
+
+      <div class="bank-cards">
+        <img src="./img/hdfcBAnk.png" alt="">
+        <h1>Unlimited Cashback
+          Every time</h1>
+        <p>Paytm HDFC Bank Select Credit Card. A card with assured Cashback and incredible offers.</p>
+        <img src="./img/hdfcCARD.webp" alt="">
+      </div>
+
+      <div class="bank-cards">
+        <img src="./img/sbiBANK.png" alt="" id="sbi">
+        <h1>Unlimited Cashback
+          Every time</h1>
+        <p>Paytm HDFC Bank Select Credit Card. A card with assured Cashback and incredible offers.</p>
+        <img src="./img/SbiCard.webp" alt="">
+
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- section finish -->
+  <!-- financial services start -->
+  <section id="f-service">
+
+    <!-- first service -->
+    <div class="paytm-service">
+      <div class="paytm-service-inner">
+        <div>
+          <h1>Financial Services by Paytm</h1>
+          <img src="./img/paytmBankName.png" alt="">
+          <h1>India's most sincere bank.</h1>
+          <p>Paytm Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant
+            account opening, virtual debit card and zero balance requirements, experience the future of banking today.
+          </p>
+          <button class="btn3">Learn More &nbsp <i class="fa-solid fa-minus"></i><i class="fa-solid fa-angle-right"></i>
+          </button>
+
+
+
+        </div>
+
+        <!-- 2nd div img  -->
+        <div>
+          <img src="./img/paytmCard.webp" alt="">
+        </div>
+
+      </div>
+
+    </div>
+    <!-- end service -->
+
+    <!-- its same as previous value but i have only change the width and background img  -->
+
+    <!-- paytm money-->
+    <div class="paytm-money bg1">
+      <div class="paytm-money-inner">
+        <div>
+
+          <img src="./img/paytmMoneyPhone.webp" alt="">
+
+        </div>
+
+        <!-- 2nd div img  -->
+        <div>
+          <img src="./img/paytmMoney.webp" alt="">
+          <h1>Build Long-term Wealth & Achieve your Goals.</h1>
+          <p>Investing on Paytm Money is transparent, low-cost and commission-free. Buy stocks & mutual funds that can
+            help you create wealth & realise your dreams.</p>
+          <button class="btn3">Learn More &nbsp <i class="fa-solid fa-minus"></i><i class="fa-solid fa-angle-right"></i>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- end-paytm money -->
+    <!-- insurance booking start -->
+    <div id="insurance">
+      <!-- first <div></div> -->
+      <div>
+        <img src="./img2/paytm-insurance.webp" alt="">
+        <h1>Insurance made easy.</h1>
+        <p>Buying insurance does not have to be tedious, time-consuming & confusing. Paytm Insurance removes the worry
+          of getting insured by making it simple, convenient & easy-to-understand.</p>
+        <button class="btn3">Learn More &nbsp <i class="fa-solid fa-minus"></i><i class="fa-solid fa-angle-right"></i>
+        </button>
+
+      </div>
+      <!-- 2nddiv -->
+      <div>
+        <img src="./img2/insurance-phone.webp" alt="">
+      </div>
+    </div>
+    <!-- insurance booking end -->
+
+    <!-- loan page staart -->
+
+    <div id="loan">
+      <!-- first <div></div> -->
+      <div>
+        <img src="./img2/loan-phone.webp" alt="">
+      </div>
+      <!-- 2nddiv -->
+      <div>
+        <img src="./img2/loan-logo.png" alt="">
+        <h1>Insurance made easy.</h1>
+        <p>Buying insurance does not have to be tedious, time-consuming & confusing. Paytm Insurance removes the worry
+          of getting insured by making it simple, convenient & easy-to-understand.</p>
+      </div>
+    </div>
+    <!-- loan page end -->
+  </section>
+  <!-- business section  -->
+  <section id="business-service">
+    <h1>Business Services by Paytm</h1>
+    <div class="online-pay">
+      <div>
+        <h1>Accept payments online with ease</h1>
+        <p>Grow your business with the payment gateway that powers India’s largest brands and even the Paytm App</p>
+        <button class="btn3">Learn More &nbsp <i class="fa-solid fa-minus"></i><i class="fa-solid fa-angle-right"></i>
+        </button>
+
+      </div>
+      <div>
+        <img src="./img2/payment-accept.webp" alt="">
+      </div>
+    </div>
+    <!-- In-shop payments page -->
+    <div class="online-pay">
+      <div>
+        <h1>In-shop payments powered by Paytm.</h1>
+        <p>Millions of small & big businesses use Paytm to accept payments anywhere any time with a wide range of
+          solutions for all kind of merchants</p>
+        <button class="btn3">Learn More &nbsp <i class="fa-solid fa-minus"></i><i class="fa-solid fa-angle-right"></i>
+        </button>
+
+      </div>
+      <div>
+        <img src="./img2/inshop-payment.webp" alt="">
+      </div>
+    </div>
+
+    <!-- new heading -->
+    <h1>Business Tools to help your business grow</h1>
+
+    <div id="tools">
+      <div class="tools-child">
+        <div>
+          <img src="./img2/tool-1.webp" alt="">
+          <h1>POS Billing Software</h1>
+          <p>
+            Say Hello to Smart Retail Business Management
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div><img src="./img2/tool-2.webp" alt="">
+          <h1>Paytm for
+            Business App</h1>
+          <p>
+            Everything you need to manage your business on your phone
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div><img src="./img2/tool-3.webp" alt="">
+          <h1>Advertise on
+            Paytm</h1>
+          <p>
+            Grow your business by advertising on India’s largest mobile business
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div><img src="./img2/tool-4.webp" alt="">
+          <h1>Business
+            Khata</h1>
+          <p>
+            Managing Khata made easy
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="caoursel">
+    <div class="caoursel-1">
+      <img src="./img/paytmMoney.webp" alt="">
+      <p>Get started on wealth creation journey with Zero brokerage fee & no hidden charges.</p>
+      <a href="">Learn More</a>
+    </div>
+    <div class="slider">
+
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <!-- first -->
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./img2/cartoon-1.webp" alt="">
+              </div>
+
+              <div class="name-profession">
+                <h3 class="name">Invest in Stocks</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- second -->
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./img2/cartoon-2.webp" alt="">
+              </div>
+
+              <div class="name-profession">
+                <h3 class="name">Apply for IPO</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- third -->
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./img2/cartoon-3.webp" alt="">
+              </div>
+
+              <div class="name-profession">
+                <h3 class="name">Invest in ETFs</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- fourth -->
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./img2/cartoon-4.webp" alt="">
+              </div>
+
+              <div class="name-profession">
+                <h3 class="name">Boy Gold</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- fifth -->
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./img2/cartoon-5.webp" alt="">
+              </div>
+
+              <div class="name-profession">
+                <h3 class="name">Invest in MutualFunds</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- end -->
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+  <!-- second caoursel  -->
+  <section id="caoursel">
+    <div class="caoursel-1">
+      <img src="./img2/paytm-travel.webp" alt="">
+      <p>Get started on wealth creation journey with Zero brokerage fee & no hidden charges.</p>
+      <a href="">Learn More</a>
+    </div>
+    <div class="slider">
+
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+          <!-- first -->
+          <div class="swiper-slide card">
+            <div class="card-contents">
+              <div class="images">
+                <img src="./img2/travel-1.webp" alt="">
+              </div>
+
+              <div class="name-professions">
+                <h3 class="names">Flat 14% Cashback</h3>
+                <p class="names">Withcode Welcome FLIGHT</p>
+              </div>
+
+            </div>
+          </div>
+          <!-- second -->
+          <div class="swiper-slide card">
+            <div class="card-contents">
+              <div class="images">
+                <img src="./img2/travel-2.webp" alt="">
+              </div>
+
+              <div class="name-professions">
+                <h3 class="names">100% Refund</h3>
+                <p class="names">With Payments cancellation protect</p>
+              </div>
+
+            </div>
+          </div>
+          <!-- third -->
+          <div class="swiper-slide card">
+            <div class="card-contents">
+              <div class="images">
+                <img src="./img2/travel-3.webp" alt="">
+              </div>
+
+              <div class="name-professions">
+                <h3 class="names">Flat 10% Cashback</h3>
+                <p class="names">With Code HappyBus</p>
+              </div>
+
+            </div>
+          </div>
+          <!-- fourth -->
+          <div class="swiper-slide card">
+            <div class="card-contents">
+              <div class="images">
+                <img src="./img2/travel-4.webp" alt="">
+              </div>
+
+              <div class="name-professions">
+                <h3 class="names">Sanitised bus Options With TravelSafe+</h3>
+              </div>
+
+            </div>
+          </div>
+          <!-- fifth -->
+          <div class="swiper-slide card">
+            <div class="card-contents">
+              <div class="images">
+                <img src="./img2/travel-5.webp" alt="">
+              </div>
+
+              <div class="name-professions">
+                <h3 class="names">Hassel Free Train Tickets Booking</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- end -->
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+  <!-- footer part -->
+  <footer>
+    <div class="play-apps">
+      <div>
+        <h3>Download Paytm App to Pay from anywhere</h3>
+        <div class="play-img">
+          <img src="./img2/downloadApple.svg" alt="">
+        <img src="./img2/downloadGoogle.svg" alt="">
+        </div>
+      </div>
+      <div><i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </div>
+    <hr>
+    <div class="rule-1">
+      <div class="plus">
+        <i class="fa-solid fa-plus"></i>
+        
+        <p>Investor Releations</p>
+      </div>
+      <hr>
+      <div class="hide-1 show-foot">
+        <a href="">Home</a>
+        <a href="">Financial</a>
+        <a href="">Filings & Fresh Realises</a>
+        <a href="">News & Event</a>
+        <a href="">Corporate & Goverance</a>
+        <a href="">Resources</a>
+
+      </div>
+
+    </div>
+    <!-- 2nd rule  -->
+    <div class="rule-2">
+      <div class="plus">
+        <i class="fa-solid fa-plus"></i>
+        <p>More About Paytm</p>
+      </div>
+      <hr>
+      <div class="hide-2 show-foot">
+        <h4>Paytm - India's Most Popular Platform for Money Transfer, BHIM UPI Payments, Recharges and other online
+          payments</h4>
+        <p>Paytm - India’s largest mobile e-commerce website is an ultimate destination for prompt <span>Online
+            Recharge</span> , DTH, Data Card & Metro Card Recharge and Mobile Bill Payment for <span>Airtel, Aircel,
+            BSNL, Idea, MTNL</span> Vodafone & other operators for all the circles across India. Enjoy our online
+          recharge and bill payment service along with best bonus packs of internet & roaming within a jiffy.</p>
+
+        <p>Now you don’t have to look at various websites to find the best entertainment option in your city. You can
+          book movie tickets, event tickets and travel tickets within minutes on Paytm.com. Paytm login is very easy on
+          the Paytm app and Paytm website. Just enter your number and Password/OTP <span>login</span> and process all
+          the transactions instantly on Paytm.</p>
+
+        <h5>Mobile Recharge - <span> Airtel, Vodafone, Idea, Jio, BSNL, MTNL, and More</span></h5>
+
+        <p>Now making an online recharge has become very easy and safe with your Paytm account on Paytm.com.
+          Effortlessly make payments through our safe methods, processed through secured gateways for Airtel Recharge,
+          Jio Recharge, Vodafone Idea Recharge, MTNL Recharge, BSNL Recharge. Paytm also provide you with exciting
+          <span>cashback</span> and offers on Paytm
+        </p>
+
+        <p>All The Latest Plans And Packs For Your Mobile Recharge- Paytm makes it very easier for you to make recharge
+          online with Paytm. You can browse all the latest recharge plans and offers right on Paytm itself. More than
+          that, Paytm.com or Paytm app fetches your operator and circle automatically as soon as you enter your number,
+          making the process faster and easier for you.</p>
+
+        <h5>Online Shopping- Find Best Deals Online On Groceries, Appliances And Latest Smart Phones at Paytm</h5>
+
+        <p>Paytm Mall Maha Shopping Festival Sale is back this festive season. <span>Shop on Paytm Mall and enjoy</span>
+          the best ever online Diwali sale you can come across. With a vibrant range of products from electronic
+          gadgets, mobiles and appliances to fashion accessories and footwear collections at unbelievable prices, this
+          online sale is going to be the year’s best shopping experience!</p>
+
+      </div>
+
+    </div>
+
+    <div class="rule-1 rule-3">
+      <div class="plus">
+        <i class="fa-solid fa-plus"></i>
+        <p>Company. `</p>
+      </div>
+      <hr>
+      <div class="hide-1 show-foot">
+        <a href="">About</a>
+        <a href="">CSR</a>
+        <a href="">Blog</a>
+        <a href="">Contact Us</a>
+        <a href="">Terms & Conditions</a>
+        <a href="">Sustainbility</a>
+
+      </div>
+
+    </div>
+    <h2>made by Gagan <i class="fa-regular fa-heart"></i> 2023</h2>
+  </footer>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- js  -->
+  <script>
+    let signVal = document.getElementById("signup-page")
+    // let none= signVal.style.display
+    let home = document.querySelector(".home")
+    function signUp() {
+      if (signVal.style.display == "none") {
+        signVal.style.display = "flex"
+      }
+      else {
+        signVal.style.display = "none"
+      }
+    }
+    function Xmark() {
+      signVal.style.display = "none"
+      home.style.position = ""
+    }
+    let widths = document.getElementById("caoursel")
+    let star = 4, war = 30;
+    console.log(widths.offsetWidth)
+    if (widths.offsetWidth <= 900 && widths.offsetWidth >= 641) {
+      star = 3
+    } else if (widths.offsetWidth <= 640 && widths.offsetWidth >= 400) {
+      star = 2
+      war = 20
+    }
+    else if(widths.offsetWidth<=399&&widths.offsetWidth>=100){
+      star=1
+    }
+
+    var swiper = new Swiper(".mySwiper", {
+
+      slidesPerView: +star,
+      spaceBetween: +war,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    // footer
+    let show = document.querySelectorAll(".show-foot")
+    let plussign = document.querySelectorAll(".fa-plus");
+    let plus = document.querySelectorAll(".plus");
+    for (let a = 0; a < plus.length; a++) {
+
+      plus[a].addEventListener("click", function () {
+
+        if (show[a].style.display == "none") {
+          show[a].style.display = "flex"
+          plussign[a].style.transform = "rotate(50deg)";
+          plussign[a].style.transition = "all 0.6s"
+
+        }
+        else {
+          show[a].style.display = "none"
+          plussign[a].style.transform = "rotate(0deg)";
+          plussign[a].style.transition = "all 0.7s"
+        }
+      })
+
+
+    }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,598 @@
+@media only screen and (max-width: 1015px) {
+  #menu {
+    display: block;
+    margin: 0 15px;
+  }
+  #nav ul li {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    place-items: center;
+  }
+  .logo {
+    width: 60%;
+  }
+  .row1 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .child-box .wallet-img {
+    width: 80%;
+  }
+  .paytm-service-inner div:nth-child(1) img,
+  .paytm-money-inner div:nth-child(2) img {
+    width: 30%;
+    margin: 30px 0;
+  }
+  .play-apps > div:nth-child(1) {
+    width: 60%;
+    display: flex;
+  }
+  .play-apps > div:nth-child(2) {
+    width: 20%;
+
+  }
+  .rule-1 div:nth-child(1),.rule-2 div:nth-child(1){
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .rule-1 hr,.rule-2 hr,.rule-3 hr{
+    width: 100%;
+    margin: 0;
+  }
+  .plus{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+  }
+  .hide-1{
+    flex-direction: column;
+    
+  }
+  .hide-1 a{
+    margin: 7px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .home {
+    display: block;
+    padding: 0 20px;
+  }
+  .home > div {
+    width: 100%;
+  }
+  .home > div:nth-child(2) img {
+    width: 80%;
+  }
+  .s-btn {
+    margin: 5px;
+  }
+  .row1 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  #pay-page > h1 {
+    font-size: 3rem;
+    padding: 100px 0 10px 30px;
+  }
+  .child-box .wallet-img {
+    width: 44%;
+  }
+  .wallet {
+    flex-direction: column;
+  }
+  .wallet .child-box {
+    width: 90%;
+  }
+  .bank-cards img:nth-child(1) {
+    width: 60%;
+    margin: 22px 0px;
+  }
+  .bank-cards {
+    width: 49%;
+    padding: 30px 15px;
+  }
+  .paytm-service-inner,
+  .paytm-money-inner {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 96%;
+  }
+  .paytm-service-inner div:nth-child(1),
+  .paytm-money-inner div:nth-child(2) {
+    width: 100%;
+  }
+  .paytm-money-inner div:nth-child(2) {
+    width: 100%;
+    margin: auto;
+  }
+  .paytm-service-inner div:nth-child(2),
+  .paytm-money-inner div:nth-child(1) {
+    width: 80%;
+    padding: 50px 0;
+    margin: 0 auto;
+  }
+  #insurance,
+  #loan {
+    flex-direction: column;
+  }
+  #insurance div,
+  #loan div {
+    width: 88%;
+    padding: 50px;
+  }
+  #insurance div:nth-child(1) h1,
+  #loan div:nth-child(2) h1,
+  .online-pay > div:nth-child(1) h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  #insurance div:nth-child(1) img,
+  #loan div:nth-child(2) img {
+    width: 25%;
+  }
+  #insurance div:nth-child(2) img,
+  #loan div:nth-child(1) img,
+  .paytm-service-inner div:nth-child(2) img,
+  .paytm-money-inner div:nth-child(1) img {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+  }
+  #business-service > h1 {
+    font-size: 2.9rem;
+    width: 90%;
+  }
+  .online-pay {
+    flex-direction: column;
+  }
+  .online-pay > div {
+    width: 100%;
+  }
+  .online-pay > div:nth-child(1) {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .tools-child {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tools-child div {
+    padding: 0 10px;
+  }
+  .tools-child h1 {
+    width: 90%;
+    font-size: 1.7rem;
+  }
+  .tools-child p {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .tools-child a {
+    font-size: 1.2rem;
+  }
+  #caoursel {
+    width: 100%;
+    flex-direction: column;
+  }
+  .caoursel-1 {
+    width: 80%;
+    padding: 50px 0;
+    margin: auto;
+  }
+  .caoursel-1 img {
+    width: 35%;
+    margin: 20px 0;
+  }
+  .caoursel-1 a {
+    margin: 0;
+  }
+  .caoursel-1 p {
+    width: 90%;
+  }
+  .swiper {
+    width: 95%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: transparent;
+  }
+
+  .play-apps > div:nth-child(1) {
+    width: 80%;
+    display: flex;
+  }
+  .play-apps > div:nth-child(2) {
+    width: 20%;
+  }
+  .play-apps h3 {
+    width: 50%;
+   
+  }
+  .play-apps i {
+    font-size: 1.5rem;
+    margin: 10px ;
+  }
+  .play-apps img {
+    width: 35%;
+    margin: 0 8px;
+  }
+
+}
+/* 900px end  */
+@media only screen and (max-width: 700px){
+  .play-apps > div:nth-child(1) {
+    width: 70%;
+    flex-direction: column;
+  }
+  .play-apps h3 {
+    width: 90%;
+    margin: 20px 0;
+   
+  }
+  .play-apps > div:nth-child(2) {
+    width: 30%;
+  }
+  .play-apps i {
+    font-size: 1.3rem;
+    margin: 5px ;
+  }
+}
+/* 600px start  */
+@media only screen and (max-width: 600px) {
+  .home > div:nth-child(1) img {
+    height: 70px;
+  }
+  .logo {
+    width: 100%;
+  }
+  #signup-page {
+    width: 80%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  #signup-page .s-page1 {
+    width: 100%;
+  }
+  #signup-page > div:nth-child(2) > p {
+    margin: 40px 20px 40px 0;
+  }
+  .s-btn {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .home > div h1 {
+    font-size: 2.7rem;
+  }
+  .home > div p {
+    font-size: 1rem;
+  }
+  .btn2 {
+    height: 40px;
+    font-size: 1rem;
+  }
+  .box1 h1,
+  .box2 h1,
+  .bank-cards h1 {
+    font-size: 2rem;
+  }
+  .row1 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #pay-page > h1 {
+    font-size: 2.8rem;
+    padding: 100px 0 10px 20px;
+  }
+  .child-box .wallet-img {
+    width: 64%;
+  }
+  #bank {
+    flex-direction: column;
+  }
+  .bank-cards {
+    width: 99%;
+    padding: 30px 35px;
+    margin: 20px 0;
+  }
+  .bank-cards p + img {
+    width: 100%;
+  }
+  .bank-cards p {
+    font-size: 1rem;
+  }
+  .child-box p {
+    font-size: 1rem;
+  }
+  .paytm-service-inner div:nth-child(1) > :nth-child(1),
+  .paytm-money-inner div:nth-child(2) > :nth-child(1) {
+    font-size: 2.8rem;
+  }
+  .paytm-service-inner div:nth-child(1) > :nth-child(3),
+  .paytm-money-inner div:nth-child(2) > :nth-child(2) {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  .paytm-service-inner div:nth-child(1) > :nth-child(4),
+  .paytm-money-inner div:nth-child(2) > :nth-child(3) {
+    font-size: 1rem;
+    width: 100%;
+    padding: 0 10px;
+  }
+  #insurance div,
+  #loan div {
+    width: 100%;
+    padding: 50px;
+  }
+  #insurance div:nth-child(1) h1,
+  #loan div:nth-child(2) h1,
+  .online-pay > div:nth-child(1) h1 {
+    font-size: 2.1rem;
+    margin: 20px 0;
+  }
+
+  #insurance div:nth-child(1) p,
+  #loan div:nth-child(2) p,
+  .online-pay > div:nth-child(1) p,
+  .tools-child p {
+    font-size: 1.1rem;
+  }
+  #insurance div:nth-child(2) img,
+  #loan div:nth-child(1) img,
+  .paytm-service-inner div:nth-child(2) img,
+  .paytm-money-inner div:nth-child(1) img {
+    width: 85%;
+  }
+  #business-service > h1 {
+    font-size: 2.1rem;
+    width: 98%;
+  }
+  .tools-child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tools-child div {
+    padding: 0 10px;
+  }
+  .tools-child h1 {
+    width: 94%;
+    font-size: 1.5rem;
+  }
+  .tools-child p {
+    font-size: 1.1rem;
+    width: 95%;
+  }
+  .tools-child a {
+    font-size: 1.2rem;
+  }
+
+  .caoursel-1 {
+    width: 100%;
+    padding: 50px 0;
+    margin: auto;
+    text-align: center;
+  }
+  .caoursel-1 img {
+    width: 65%;
+    margin: 20px 0;
+  }
+  .caoursel-1 a {
+    margin: 0;
+  }
+  .caoursel-1 p {
+    width: 100%;
+
+  }
+  .swiper {
+    width: 100%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: transparent;
+  }
+
+}
+/* 600px end  */
+@media only screen and (max-width: 490px) {
+  .home > div:nth-child(1) img {
+    height: 60px;
+  }
+  .home {
+    padding: 0px;
+  }
+  .logo {
+    width: 120rem;
+  }
+  .logo img {
+    margin: 19px 0;
+  }
+  .btn button {
+    font-size: 0.9rem;
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+  }
+  .fa-user {
+    font-size: 15px;
+    margin: 0 4%;
+    width: 25px;
+  }
+  .para p {
+    margin: 0 10px;
+    font-size: 0.9rem;
+  }
+  .row1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .box2 .items h3 {
+    font-size: 1rem;
+  }
+  .items h3 {
+    font-weight: 400;
+  }
+  #pay-page > h1 {
+    font-size: 2.7rem;
+    padding: 100px 0 10px 10px;
+  }
+  .child-box .wallet-img {
+    width: 74%;
+  }
+  .child-box {
+    padding: 0px;
+  }
+  .child-box .btn2 {
+    width: 90%;
+  }
+  .btn3 {
+    height: 40px;
+    font-size: 0.9rem;
+  }
+  .paytm-service-inner div:nth-child(1) > :nth-child(1),
+  .paytm-money-inner div:nth-child(2) > :nth-child(1) {
+    font-size: 2rem;
+  }
+  .paytm-service-inner div:nth-child(1) > :nth-child(3),
+  .paytm-money-inner div:nth-child(2) > :nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .paytm-service-inner div:nth-child(1) > :nth-child(4),
+  .paytm-money-inner div:nth-child(2) > :nth-child(3) {
+    font-size: 0.9rem;
+  }
+  #insurance div,
+  #loan div {
+    width: 100%;
+    padding: 20px;
+  }
+  #insurance div:nth-child(1) h1,
+  #loan div:nth-child(2) h1,
+  .online-pay > div:nth-child(1) h1 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+  }
+
+  #insurance div:nth-child(1) p,
+  #loan div:nth-child(2) p,
+  .online-pay > div:nth-child(1) p,
+  .tools-child p {
+    font-size: 1rem;
+  }
+  #insurance div:nth-child(2) img,
+  #loan div:nth-child(1) img,
+  .paytm-service-inner div:nth-child(2) img,
+  .paytm-money-inner div:nth-child(1) img {
+    width: 95%;
+    display: block;
+    margin: 20px auto;
+  }
+  #business-service > h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .tools-child img {
+    width: 70%;
+    display: block;
+    margin: 0 25%;
+  }
+  .tools-child {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 0;
+  }
+  .tools-child div {
+    padding: 0 10px;
+  }
+  .tools-child h1 {
+    width: 100%;
+    font-size: 1.7rem;
+  }
+  .tools-child p {
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .tools-child a {
+    font-size: 1.2rem;
+  }
+  .caoursel-1 a {
+    margin: 0;
+    font-size: 1rem;
+  }
+  .caoursel-1 a:hover{
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .caoursel-1 p {
+    width: 100%;
+font-size: .9rem;
+  }
+  .slider{
+    width: 100%;
+  }
+  .slider .card .image {
+    height: 70%;
+    padding: 0px;
+  }
+  
+  
+}
+@media only screen and (max-width: 399px) {
+  .child-box .wallet-img {
+    width: 94%;
+    margin: 20px 0;
+    padding: 0;
+  }
+  .child-box .btn2 {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .row1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #insurance div,
+  #loan div {
+    width: 100%;
+    padding: 10px;
+  }
+  #insurance div:nth-child(1) p,
+  #loan div:nth-child(2) p,
+  .online-pay > div:nth-child(1) p,
+  .tools-child p {
+    font-size: 0.9rem;
+  }
+  #insurance div:nth-child(1) h1,
+  #loan div:nth-child(2) h1,
+  .online-pay > div:nth-child(1) h1 {
+    font-size: 1.5rem;
+  }
+  #business-service > h1 {
+    font-size: 2rem;
+  }
+  .slider{
+    width: 80%;
+  }
+  .slider .card .image {
+    height: 55%;
+  }
+  .slider .card .image img {
+    height: 90%;
+    
+  }
+  .play-apps{
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* padding: 0; */
+  }
+  .play-apps div:nth-child(1),.play-apps div:nth-child(2){
+    width: 98%;
+    margin: 0 auto;
+    
+  }
+  .play-apps h3,.play-apps .fa-brands{
+    margin-left: 15px;
+  }
+  .play-apps .fa-brands{
+    margin: 15px;
+  }
+
+}
